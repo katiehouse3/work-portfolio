@@ -15,6 +15,16 @@ p {
 	line-height: 22.4px;
 	color: black;
 }
+
+a {
+	font-size: 16px;
+	line-height: 22.4px;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 65px;
 	color: #2d3033;
@@ -60,10 +70,11 @@ h5 {
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
-a {
+#portfolio  a{
 	color: #e84545;
 }
-a:hover, a:focus {
+
+#portfolio a:hover, a:focus {
 	text-decoration: none;
 	-moz-transition: background-color, color, 0.3s;
 	-o-transition: background-color, color, 0.3s;
@@ -82,7 +93,7 @@ ul, ol {
 ul li {
 	list-style: none;
 	font-family: "Cutive Mono";
-	font-weight: 600;
+	font-weight: 500;
 }
 .section {
 	padding: 50px 0;
@@ -345,15 +356,23 @@ ul li {
     display: none;
 }
 
-.icon {
+.icon img{
 	opacity: 0.5;
 }
 
-.icon:hover {
+.icon img:hover {
 	transition: .3s ease;
+	font-weight: 600;
 	opacity: 0.99;
 }
 
+.icon:hover {
+	text-decoration: none;
+}
+
+.icon-container{
+	text-align:center;
+}
 
 /* ------------------------------------------------------------------------------
 	 Portfolio
