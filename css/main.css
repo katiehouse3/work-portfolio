@@ -20,9 +20,11 @@ a {
 	font-size: 16px;
 	line-height: 22.4px;
 	color: black;
+	font-family: "Cutive Mono";
 }
 a:hover {
 	text-decoration: none;
+	color:black;
 }
 
 h1 {
@@ -360,14 +362,22 @@ ul li {
 	opacity: 0.5;
 }
 
+.icon a{
+	opacity: 0.5;
+}
+
+.icon: hover{
+	font-weight: 600;
+}
+
 .icon img:hover {
 	transition: .3s ease;
-	font-weight: 600;
 	opacity: 0.99;
 }
 
 .icon:hover {
 	text-decoration: none;
+	transition: .3s ease;
 }
 
 .icon-container{
@@ -501,10 +511,4 @@ ul li {
 .work-detail a
 {
 	color:#000;
-}
-
-@media only screen and (max-width: 500px) {
-    nav {
-        background-color: rgba(0, 0, 0, 0);
-    }
 }
