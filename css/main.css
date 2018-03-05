@@ -46,10 +46,17 @@ h4 {
 	font-weight: 400;
 }
 h5 {
-	font-size: 14px;
-	color: #2d3033;
-	font-weight: 700;
+	font-size: 13px;
+	color: white;
+	font-weight: 400;
+	padding-top:15px;
 }
+
+
+th, td {
+    padding-right: 15px;
+}
+
 .btn {
 	background-color: #333;
 	margin: 40px;
@@ -332,12 +339,16 @@ ul li {
 }
 /* ------------------------------------------------------------------------------
 	 Hero content
--------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------*/,
+
 .hero {
 	margin-top: 10%;
 }
-.hero-content {
+
+.hero-content p{
+	text-align: left;
 }
+
 .hero h1 {
 	font-size: 48px;
 	text-transform: uppercase;
@@ -349,6 +360,7 @@ ul li {
 .hero p {
 	padding-top: 20px;
 }
+
 .hero img{
 	display: block;
 	margin: 0 auto;
@@ -404,6 +416,7 @@ ul li {
 	display: block;
 	position: relative;
 	margin: 0 auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 #portfolio .portfolio-item .portfolio-link .caption {
 	position: absolute;
