@@ -49,7 +49,7 @@ h5 {
 	font-size: 13px;
 	color: white;
 	font-weight: 400;
-	padding-top:15px;
+	padding-top:20px;
 }
 
 
@@ -79,21 +79,32 @@ th, td {
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
-#portfolio  a{
+.portfolio-link{
 	color: #e84545;
 }
 
-#portfolio a:hover, a:focus {
+.portfolio-link:hover, :focus {
 	text-decoration: none;
 	-moz-transition: background-color, color, 0.3s;
 	-o-transition: background-color, color, 0.3s;
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
+
+.pseudolink { 
+   color:crimson; 
+   text-decoration:none; 
+   cursor:pointer; 
+   }
+
+
 body {
 	font-family: "Cutive Mono";
 	font-weight: 400;
 	color: #fff;
+	-moz-transform: scale(0.75, 0.75); /* Moz-browsers */
+    zoom: 0.75; /* Other non-webkit browsers */
+    zoom: 75%; /* Webkit browsers */
 }
 ul, ol {
 	margin: 0;
@@ -490,8 +501,9 @@ ul li {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
-	background-color: #333;
+	background-color: #FFFFFF;
 	padding: 7%;
+	padding-top: 300px;
 }
 .footer h4 {
 	color: #fff;
