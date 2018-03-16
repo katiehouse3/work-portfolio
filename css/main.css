@@ -105,12 +105,13 @@ ol, li{
    cursor:pointer; 
 }
 
-
+#work-9-desc img{
+	padding-top: 10px;
+}
 body {
 	padding-right: 10%;
 	padding-left: 10%;
 	font-family: "Cutive Mono";
-	font-weight: 400;
 	-moz-transform: scale(0.9, 0.9); /* Moz-browsers */
     zoom: 0.9; /* Other non-webkit browsers */
     zoom: 90%; /* Webkit browsers */
