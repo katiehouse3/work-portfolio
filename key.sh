@@ -1,1 +1,1 @@
-openssl aes-256-cbc -K $encrypted_a8834c8f89a3_key -iv $encrypted_a8834c8f89a3_iv -in workportfoliokey.enc -out workportfoliokey -d
+openssl aes-256-cbc -K $encrypted_f3767c5cc3fd_key -iv $encrypted_f3767c5cc3fd_iv -in workportfoliokey.enc -out workportfoliokey -d
